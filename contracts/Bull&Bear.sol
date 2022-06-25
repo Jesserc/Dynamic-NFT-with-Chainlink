@@ -21,7 +21,7 @@ import "hardhat/console.sol";
 
 contract BullBear is ERC721, ERC721Enumerable, ERC721URIStorage, KeeperCompatibleInterface, Ownable  {
     using Counters for Counters.Counter;
-// DEPLOYED ADDRESS = 0x1a4c7d22C89CdDF4CD015065a3397694962dA553
+//DEPLOYED ADDRESS = 0x1a4c7d22C89CdDF4CD015065a3397694962dA553
 
     Counters.Counter private _tokenIdCounter;
     AggregatorV3Interface public pricefeed;
